@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stil.css">
+    <title>Usta Marangoz - İletişim</title>
+</head>
+
+<body>
+    <div class="kasa">
+        <div class="banner">
+            <h1>İletişim</h1>
+            <p>Hayalinizdeki projeyi gerçekleştirmek için bize ulaşın.</p>
+        </div>
+        <div class="orta">
+            <div class="linkler">
+                <ul class="menu">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+                    <li><a href="projelerimiz.html">Projelerimiz</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="icerik">
+                <h1 class="bolumBaslik">İletişim</h1>
+                <p>
+                    Projelerinizi bizimle paylaşarak, birlikte hayalinizdeki tasarımları gerçeğe dönüştürebiliriz. 
+                    Usta Marangoz olarak, her projeye özel çözümler sunarak ihtiyaçlarınıza en uygun hizmeti sağlamak için 
+                    buradayız. 
+                </p>
+                <p>
+                    İletişime geçmek çok kolay! Aşağıdaki bilgilerle bizimle bağlantıya geçebilir, 
+                    proje detaylarınızı paylaşarak bir teklif alabilirsiniz. 
+                    Ayrıca, ofisimize gelerek çalışmalarımız hakkında daha fazla bilgi alabilirsiniz.
+                </p>
+                <h2>İletişim Bilgileri</h2>
+                <p><strong>Telefon:</strong> +90 555 555 55 55</p>
+                <p><strong>WhatsApp:</strong> +90 555 555 55 55</p>
+                <p><strong>E-posta:</strong> info@ustamarangoz.com</p>
+                <p><strong>Adres:</strong> Ahşap Sokak, No:12, Marangoz Mahallesi, İstanbul, Türkiye</p>
+
+                <h2>Ofisimize Ziyaret</h2>
+                <p>
+                    İstanbul'un merkezine oldukça yakın bir konumda olan ofisimize gelebilir, 
+                    size özel çözümler hakkında birebir görüşmeler yapabilirsiniz. 
+                    Ofisimizin kapıları her zaman size açıktır!
+                </p>
+
+                <h2>Form ile İletişim</h2>
+                <p>
+                    Ayrıca, aşağıdaki iletişim formunu doldurarak bize mesaj bırakabilirsiniz. 
+                    Sizinle en kısa sürede iletişime geçeceğiz.
+                </p>
+
+                <!-- İletişim Formu -->
+                <form action="submit_form.php" method="POST">
+                    <label for="adSoyad">Ad Soyad:</label>
+                    <input type="text" id="adSoyad" name="adSoyad" required><br><br>
+
+                    <label for="email">E-posta:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="telefon">Telefon Numarası:</label>
+                    <input type="tel" id="telefon" name="telefon"><br><br>
+
+                    <label for="mesaj">Mesajınız:</label><br>
+                    <textarea id="mesaj" name="mesaj" rows="4" required></textarea><br><br>
+
+                    <input type="submit" value="Gönder">
+                </form>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="footer">
+            <p>© 2024 Usta Marangoz. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+</body>
+
+</html>
